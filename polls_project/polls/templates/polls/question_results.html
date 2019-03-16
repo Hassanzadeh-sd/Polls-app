@@ -1,0 +1,9 @@
+<h1 style="margi: 1%;display: block;text-align: center;padding-top: 2%;">{{ question.text }}</h1>
+
+<ul style="display: block;text-align: left;margin-top: 3%;font-size:22px;list-style-type: none;">
+{% for choice in question.choice_set.all %}
+  <li  style="padding:7px;">{{ choice.text }} -- {{ choice.vote }} vote{{ choice.vote|pluralize }}</li>
+{% endfor %}
+</ul>
+
+<a style="display: block;text-align: left;margin-top: 2%;font-size: 17px;margin-left: 4%;" href = "{% url 'polls:detail' question.id %}"> Vote again? </a>

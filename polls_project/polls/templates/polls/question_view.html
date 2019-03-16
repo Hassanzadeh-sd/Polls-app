@@ -1,0 +1,10 @@
+<h1 style="margi: 1%;display: block;text-align: center;padding-top: 2%;">Quesion List View</h1>
+{% if latest_question_list %}
+  <ul style="display: block;text-align: left;margin-top: 3%;font-size:22px;list-style-type: none;">
+{% for question in latest_question_list %}
+      <li style="padding:7px;"><a href="{% url 'polls:detail' question.id %}"> {{ question.text }} </a></li>
+{% endfor %}
+  </ul>
+{% else %}
+  <p>No polls are available.</p>
+{% endif %}
