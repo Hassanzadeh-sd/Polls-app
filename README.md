@@ -5,7 +5,8 @@ include : models, view, urls
 and simple template for bigginers
 
 ### Prerequisites
-install latest python after that install django=1.11 version
+latest python 
+django=1.11 version
 
 
 ## Running the tests
