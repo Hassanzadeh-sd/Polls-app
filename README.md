@@ -1,4 +1,4 @@
-# django-1.11-polls-app
+# Django-1.11-polls-app
 
 django polls project best practice for django learning
 include : models, view, urls
