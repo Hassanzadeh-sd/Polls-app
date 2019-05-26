@@ -22,9 +22,11 @@ link
 * [Python](https://https://python.org/) - Python
 * [djangoproject](http://www.djangoproject.com/1.0.2/docs/) - The web framework used
 
-## Authors
+## Author
 
-* **Hassanzadeh Sajjad** - *Initial work* - [Hassanzadeh](https://github.com/Hassanzadeh-sd)
+* **Hassanzadeh Sajjad** - *personal website* - [MR](http://mrhassanzadeh.ir)
+
+- See also the list of [projects](https://github.com/Hassanzadeh-sd?tab=repositories)
 
 ## License
 
